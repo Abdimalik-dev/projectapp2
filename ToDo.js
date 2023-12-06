@@ -1,9 +1,5 @@
-import React from 'react'
-import Todo from './Todo'
+const square = function(x) {
+  return x * x;
+};
 
-export default function ToDo({Todo}) {
-  return (
-    <div>
-        ToDo</div>
-  )
-}
+console.log(square(12));
